@@ -377,4 +377,13 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
+.header {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.header__picture {
+  margin-right: 50px;
+}
 /*# sourceMappingURL=main.css.map */

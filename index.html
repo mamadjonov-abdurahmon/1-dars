@@ -1,46 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="./css/css">
- <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
 </head>
 <body>
 
- <!-- =====================HEADER====================== -->
+  <!-- =====================HEADER====================== -->
 
- <header>
-  <section>
-   <div class="container">
-    <div>
+  <header>
+    <section>
+      <div class="container">
+        <div class="header">
+
+          <!-- =================waiter============= -->
+
+          <picture class="header__picture">
+
+
+            <source
+            type="image/webp"
+            media="(max-width:425px)"
+            srcset="./images/Waiter-mobile.webp 1x ,
+            ./images/Waiter-mobile@2x.webp 2x"
+            />
+
+            <source
+            type="image/webp"
+            media="(max-width:768px)"
+            srcset="./images/Waiter-tablet.webp 1x ,
+            ./images/Waiter-tablet@2x.webp 2x"
+            />
+
+            <source
+            type="image/webp"
+            srcset="./images/Waiter.webp 1x , ./images/Waiter@2x.webp 2x"
+            />
+
+            <img src="./images/Waiter.jpg" alt="coffee"
+            srcset="./images/Waiter.jpg 1x , ./images/Waiter@2x.jpg 2x"
+            width="445" height="520">
+
+          </picture>
+
+          <!-- ====================coffee================== -->
+
+          <picture>
+
+            <source type="image/webp"
+            media="(max-width:425px)"
+            srcset="
+            ./images/cofffe-mobile.webp 1x ,
+            ./images/coffee-mobile@2x.webp 2x
+            "
+            />
+
+
+            <source type="image/webp"
+            media="(max-width:768px)"
+            srcset="
+            ./images/coffee-tablet.webp 1x ,
+            ./images/coffee-tablet@2x.webp 2x"/>
+
+            <source
+            type="image/webp"
+            srcset="
+            ./images/coffee.webp 1x ,
+            ./images/coffee@2x.webp 2x"/>
+
+            <img src="./images/coffee.jpg"
+            srcset="
+            ./images/coffee.jpg 1x ,
+            ./images/coffee@2x.jpg 2x"
+            alt="img"
+            width="445"
+            height="474" />
+
+          </picture>
+
+
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- ======================MAIN======================= -->
+
+  <main>
+    <section>
+      <div class="container">
+        <div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =======================FOOTER===================== -->
+
+  <footer>
+    <div class="container">
+      <div>
+
+      </div>
     </div>
-   </div>
-  </section>
- </header>
-
- <!-- ======================MAIN======================= -->
-
- <header>
-  <section>
-   <div class="container">
-    <div>
-
-    </div>
-   </div>
-  </section>
- </header>
-
- <!-- =======================FOOTER===================== -->
-
- <header>
-   <div class="container">
-    <div>
-
-    </div>
-   </div>
- </header>
+  </footer>
 
 </body>
 </html>
